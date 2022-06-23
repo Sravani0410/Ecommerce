@@ -14,10 +14,11 @@ body{
     display:grid;
     grid-template-areas:
     'header'
-    'main'
+    'main '
     'footer';
     grid-template-columns: 1fr;
     grid-template-rows: 5rem 1fr 5rem;
+    height:100%
 }
 header{
     grid-area: header;
@@ -34,6 +35,14 @@ footer{
     color:#ffffff;
 }
 /*common css*/
+h1{
+    font-size:1.8rem;
+    padding:1rem 0;
+}
+h2{
+    font-size:1.6rem;
+    padding:1rem 0;
+}
 a{
   text-decoration:none;
 
@@ -43,7 +52,8 @@ a:hover{
 }
 /*header */
 header a{
-    color:#ffffff
+    color:#ffffff;
+    padding:1rem;
 }
 a.brand{
     color: #ffffff;
@@ -58,4 +68,38 @@ a.brand{
 }
 .row.center{
     justify-content: center;
+}
+
+/* img */
+img{
+    border-radius:0.5rem;
+}
+img.medium{
+    max-width:20rem;
+    width:100%;
+}
+
+/* card */
+
+.card{
+    border:0.1rem solid #c0c0c0;
+    border-radius:0.5rem;
+    background-color: #f8f8f8;;
+    margin:1rem;
+}
+.card-body{
+    padding:1rem;
+}
+.card-body >*{
+    margin-bottom: 0.5rem;
+}
+.price{
+    font-size:2rem;
+}
+
+/* Rating */
+
+.rating span{
+    color:#f0c040;
+    margin:0.1rem;
 }
