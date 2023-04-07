@@ -1,0 +1,26 @@
+mern-auth/
+  client/
+    public/
+    src/
+      components/
+      pages/
+      App.js
+      index.js
+  server/
+    config/
+      db.js
+      jwt.js
+      roles.js
+    controllers/
+      authController.js
+      dashboardController.js
+    helpers/
+      authMiddleware.js
+      aclMiddleware.js
+    models/
+      User.js
+    routes/
+      authRoutes.js
+      dashboardRoutes.js
+    views/
+    server.js

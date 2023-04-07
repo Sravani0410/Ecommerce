@@ -1,0 +1,1 @@
+if you are using any frontend framework no need to create the view because it is handling the html,css to show web browser
